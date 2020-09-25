@@ -3,7 +3,7 @@ Write a C# Sharp program to print the result of dividing two numbers.
 */
 using System;
 
-namespace Exercice_3
+namespace Exercice_03
 {
     class Program
     {

@@ -3,7 +3,7 @@ Write a C# Sharp program to print the sum of two numbers.
 */
 using System;
 
-namespace Exercice_2
+namespace Exercice_02
 {
     class Program
     {

@@ -12,7 +12,7 @@ Expected Output:
 */
 using System;
 
-namespace Exercice_8
+namespace Exercice_08
 {
     class Program
     {

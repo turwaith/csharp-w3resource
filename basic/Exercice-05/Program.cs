@@ -10,7 +10,7 @@ After Swapping :
 */
 using System;
 
-namespace Exercice_5
+namespace Exercice_05
 {
     class Program
     {

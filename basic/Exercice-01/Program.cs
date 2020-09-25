@@ -5,7 +5,7 @@ Expected Output :
 */
 using System;
 
-namespace Exercice_1
+namespace Exercice_01
 {
     class Program
     {
