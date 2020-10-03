@@ -18,17 +18,9 @@ namespace Exercice_32
             Console.Write("Input a string: ");
             userInput = Console.ReadLine();
 
-            Console.WriteLine(GetLastFourChar(userInput));            
-        }
-
-        static string GetLastFourChar(string userInput)
-        {       
-            if(userInput.Length < 4) return userInput;
-            else
-            {
-                string lastChar = userInput[^4..^0];
-                return lastChar+lastChar+lastChar+lastChar;                
-            }
+            Console.WriteLine(userInput.Length < 4 ? 
+                                userInput+userInput+userInput+userInput :
+                                userInput[^4..^0]+userInput[^4..^0]+userInput[^4..^0]+userInput[^4..^0]);         
         }
     }
 }
