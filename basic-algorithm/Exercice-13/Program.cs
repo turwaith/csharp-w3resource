@@ -20,7 +20,7 @@ namespace Exercice_13
             tempOne = Convert.ToInt32(userInput.Split(",")[0]);
             tempTwo = Convert.ToInt32(userInput.Split(",")[1]);
 
-            Console.WriteLine((tempOne > 0 && tempTwo < 0) || (tempOne < 0 && tempTwo > 0) ? "true" : "false");
+            Console.WriteLine((tempOne > 100 && tempTwo < 0) || (tempOne < 0 && tempTwo > 100) ? "true" : "false");
         }
     }
 }
