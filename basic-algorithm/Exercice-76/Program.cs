@@ -12,8 +12,9 @@ namespace Exercice_76
     {
         public static string NewString(string original)
         {
-            if(original.Length <= 2) return original + new string('#',(2 - original.Length));
-            return original[0..2];
+            return original.Length > 2 ?
+                original[0..2] :
+                original + new string('#',(2 - original.Length));
         }
         static void Main(string[] args)
         {
